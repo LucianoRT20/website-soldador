@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SOLDADURAS LR</title>
+    <link rel="stylesheet" href="">
+    <script src="https://kit.fontawesome.com/d2ad0528fa.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: cursive;
+    }
+
+    h1 {
+        background-color: crimson;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-size: 40px;
+    }
+    p{
+        background-color: coral;
+        text-align: center;
+    }
+    .Luciano ul {
+        list-style: none;
+        text-align: center;
+        background-color: chocolate;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Luciano li {
+        display: inline-block;
+    }
+
+    .Luciano a {
+        color: white;
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        transition: .5s;
+    }
+
+    .Mini-menu>li {
+        position: relative;
+        display: inline-block;
+    }
+
+    .Mini-menu>li>a {
+        display: block;
+        padding: 15px 20px;
+        color: aquamarine;
+        font-family: cursive;
+        text-decoration: none;
+    }
+
+    .Mini-menu li a:hover {
+        color: white;
+    }
+
+    .Mini-menu {
+        position: absolute;
+        background: white;
+        display: none;
+    }
+
+    .Mini-menu li a {
+        display: block;
+        padding: 15px;
+        width: 100px;
+        color: white;
+        font-family: cursive;
+        text-decoration: none;
+    }
+
+    .Luciano li:hover .Mini-menu {
+        display: block;
+    }
+
+    a:hover {
+        background-color: black;
+        font-size: 15px;
+    }
+
+    :root {
+        --facebook: blue;
+        --instagram: #e4405f;
+        --whatsapp: green;
+    }
+
+    .Mis-botones {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Mis-botones ul li {
+        display: inline-block;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .Mis-botones ul li a {
+        display: block;
+        padding: 0px;
+        background-color: black;
+        color: white;
+        line-height: 50px;
+        font-size: 18px;
+        box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 2);
+        transition: .2s;
+    }
+
+    .Mis-botones ul li a:hover {
+        transform: translateY(-3px) scale(1.05);
+        box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 4);
+        filter: none;
+    }
+
+    .Mis-botones ul li .Facebook:hover {
+        background: var(--facebook);
+    }
+
+    .Mis-botones ul li .Instagram:hover {
+        background: var(--instagram);
+    }
+
+    .Mis-botones ul li .Whatsapp:hover {
+        background: var(--whatsapp);
+    }
+</style>
+
+<body bgcolor="">
+    <h1>BIENVENIDOS</h1>
+    <p>Esta pagina fue diseñada con el proposito de infromar sobre la indumentaria
+    y herramientas que se utilizan para soldar.</p>
+
+    <div class="Luciano">
+        <ul>
+            <li><a href="#">Inicio</a>
+                <ul class="Mini-menu">
+                    <li><a href="Definicion.html">Definicion</a>
+                </ul>
+            </li>
+            <li><a href="Productos.html">Productos</a></li>
+            <li><a href="Herramientas.html">Herramientas</a></li>
+            <li><a href="Ubicacion.html">Ubicacion</a></li>
+
+        </ul>
+    </div>
+    <div class="Mis-botones">
+        <ul>
+            <li><a href="https://www.facebook.com/luciano.rojastroncoso/" class="Facebook"><i
+                        class="fa-brands fa-facebook-square"></i></a>
+
+            <li><a href="https://www.instagram.com/luc1an0_20/" class="Instagram"><i
+                        class="fa-brands fa-instagram-square"></i></i></a>
+
+            <li><a href="#" class="Whatsapp"><i class="fa-brands fa-whatsapp-square"></i></i></a>
+
+
+        </ul>
+
+    </div>
+
+
+</body>
+
+</html>
